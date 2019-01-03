@@ -12,9 +12,9 @@ Steps:
 The LoadandFixUCRArchive script fixes the following observed issues:
 
 1. The numbering of classes is not consistent across datasets, which creates issues in various classification packages. We modify the names as follows:
-  1. Case 1: Class enumeration starts from 0 instead of 1 (which is the case in the majority of the datasets)
-  2. Case 2: Binary classes are -1 and 1 instead of 1 and 2 (which is the case for most binary datasets in the archive)
-  3. Case 3. Class enumeration starts from 3 instead of 1 (which is the case in the majority of the datasets)
+    1. Case 1: Class enumeration starts from 0 instead of 1 (which is the case in the majority of the datasets)
+    2. Case 2: Binary classes are -1 and 1 instead of 1 and 2 (which is the case for most binary datasets in the archive)
+    3. Case 3. Class enumeration starts from 3 instead of 1 (which is the case in the majority of the datasets)
 2. Ensures z-normalized datasets
 3. Saves files using as delimiter ',' and with double precision 
 
