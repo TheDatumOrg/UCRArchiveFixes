@@ -5,7 +5,7 @@ Steps:
 2. Remove desktop.ini file
 3. Remove \*.ini files from subdirectories
 4. Remove \*.md files from subdirectories
-5. Remove \*.tsv suffixes from TRAIN and TEST files in each subdirectories
+5. Remove \*.tsv suffixes from TRAIN and TEST files in each subdirectory
 6. Copy directory structure from DATASETSOLD to DATASETSNEW
 7. Run the LoadandFixUCRArchive script in Matlab IDE.
 
