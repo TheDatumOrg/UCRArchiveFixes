@@ -1,4 +1,4 @@
-This script modifies the new [UCR Time-Series Archive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) to make it backward compatible with previous versions (so that code and scripts developed for previous versions can run again without changes).
+This script modifies the new [UCR Time-Series Archive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) to make it backwards compatible with previous versions (so that code and scripts developed for previous versions can run again without changes).
 
 Steps:
 1. Create a new directory (e.g., DATASETSNEW). We assume DATASETSOLD contains the current UCR Archive.
