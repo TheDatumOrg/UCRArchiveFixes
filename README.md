@@ -1,4 +1,4 @@
-This script fixes a few issues observed in the new [UCR Time-Series Archive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) to make it backward compatible with previous versions (so that code and scripts developed for previous versions can run again without changes).
+This script modifies the new [UCR Time-Series Archive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) to make it backward compatible with previous versions (so that code and scripts developed for previous versions can run again without changes).
 
 Steps:
 1. Create a new directory (e.g., DATASETSNEW). We assume DATASETSOLD contains the current UCR Archive.
@@ -16,7 +16,9 @@ The LoadandFixUCRArchive script fixes the following observed issues:
     2. Case 2: Binary classes are -1 and 1 instead of 1 and 2 (which is the case for most binary datasets in the archive)
     3. Case 3. Class enumeration starts from 3 instead of 1 (which is the case in the majority of the datasets)
 2. Ensures z-normalized datasets
-3. Saves files using as delimiter ',' and with double precision 
+3. Saves files using as delimiter ',' and with same precision as the original dataset.
+4. TODO: handle different lengths
+5. TODO: handle missing values
 
 To perfom the above steps run the following commands:
 
