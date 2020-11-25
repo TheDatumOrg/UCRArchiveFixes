@@ -19,7 +19,7 @@ Steps:
 4. Remove \*.md files from subdirectories
 5. Remove \*.tsv suffixes from TRAIN and TEST files in each subdirectory
 6. Copy directory structure from DATASETSOLD to DATASETSNEW
-7. Run the LoadandFixUCRArchive.m script in Matlab IDE.
+7. Run the LoadandFixUCRArchive.m script in Matlab IDE
 
 To perfom the above steps run the following commands:
 
