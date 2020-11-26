@@ -21,7 +21,7 @@ This script modifies the new [UCR Time-Series Archive](https://www.cs.ucr.edu/%7
 6. Copy directory structure from DATASETSOLD to DATASETSNEW
 7. Run the LoadandFixUCRArchive.m script in Matlab IDE
 
-## To perfom the above steps run the following commands:
+## To perfom the above steps run the commands:
 
 ```
 mkdir DATASETSNEW
